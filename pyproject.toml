@@ -1,0 +1,22 @@
+[project]
+name = "ai-agent-new"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "firecrawl-py>=4.8.0",
+    "langchain>=1.0.5",
+    "langchain-deepseek>=1.0.1",
+    "langchain-mcp-adapters>=0.1.13",
+    "langchain-openai>=1.0.2",
+    "langgraph>=1.0.3",
+    "mcp>=1.21.0",
+    "pydantic>=2.12.4",
+    "python-dotenv>=1.2.1",
+]
+
+[tool.uv.workspace]
+members = [
+    "simple_agent",
+    "advanced_agent",
+]
