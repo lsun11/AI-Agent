@@ -1,3 +1,10 @@
+# AI Agent 
+
+### This repo contains a simple and an advanced AI agent, in which the advanced one is aims at becoming a real useful daily go-to product. 
+
+The simple one serves for learning and familiarizing with the logic of the code. 
+While the advanced one is constantly evolved and maintained and aims at a real product.
+
 ## 🚀 Setup Instructions (Using uv)
 
 This project uses **uv** for dependency management and virtual environments.  
